@@ -1,0 +1,4 @@
+Select reserve_id,name,city,price from Room, Guest, Reserve Where
+Room.reserve_id = Reserve.reserve_id and Room.reserve_id =
+Guest.reserve_id and Room.city = 'Mumbai' and Guest.guest_id < 20 and
+Room.reserve_id > 2 Group by name,price Having price > 3

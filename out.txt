@@ -1,0 +1,18 @@
+Enter Query : 
+
+
+
+PARSED QUERY : 
+SELECT reserve_id,
+       name,
+       city,
+       price
+FROM Room,
+     Guest,
+     Reserve
+WHERE
+
+
+-----------------------------------------------------------------------------------------
+
+
